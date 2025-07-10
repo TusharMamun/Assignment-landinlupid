@@ -27,7 +27,7 @@ font-size:16px ;
 border-radius: 10px;
 border: none;
 }
-.header-logo h1{
+.header-logo h2{
     color: #4E47FF;
     font-size:34px ;
 }
@@ -36,9 +36,34 @@ border: none;
 }
 .header-section{
     background-image: url(/Assets/Hero-bg.png);
-  
+background-size: cover;
+background-size: contain;
+
+
+background-position: center;
+
+}
+.banner{
+        padding-top: 156px;
+        padding-bottom: 166px;
+
 }
 .nave-div{
     display: flex;
     justify-content: space-between;
+}
+/* Hero section start */
+.banner-section{
+text-align: center;
+
+
+}
+.banner-section h1{
+    font-size: 65px;
+    font-weight: bold;
+text-align: center;
+    
+}
+.hero-btn{
+    margin-top: 25px;
 }
