@@ -210,5 +210,30 @@ text-align: center;
 
 .ready-to button{
     margin-bottom:25px ;
-    fon
+
+}
+/* from section is start */
+.from-information{
+
+    margin-top: 92px;
+    padding: 71px 0;
+    display: flex;
+
+}
+.form-contean-title{
+    font-size: 97px;
+    font-weight: 900;
+    color: black;
+}
+form input{
+    display: block;
+    padding:20px 32px ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+textarea{
+    display: block;
+}
+.footer-main{
+    text-align: center;
 }
