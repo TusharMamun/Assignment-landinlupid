@@ -75,7 +75,8 @@ justify-content: space-between;
 
 }
 
-.action-left{width: 517px;
+.action-left{
+    width: 517px;
     height: 200px
 
 
@@ -97,4 +98,43 @@ height: 328px;
 border-radius: 48px;
 
 }
+.action-button{
+    margin-top:30px;
+}
 /* user section :start */
+.user-main{
+    background-color: #D7D7FF;
+    width: 100%;
+    margin-top: 115px;
+    border-radius: 24px;
+
+}
+.user-main {
+ padding:50px;
+ justify-items: center;
+
+}
+.user-main h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #6C6C80;
+}
+.user-main h3{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-main h3 p{
+font-size:20px;
+color: #6C6C80;
+font-weight: 400;
+
+}
+.user-main .user-count{
+    display: flex;
+  gap: 156px;
+  margin-top: 40px;
+}
+.coutn-div{
+    text-align: center;
+}
