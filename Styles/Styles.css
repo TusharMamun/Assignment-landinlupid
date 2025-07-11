@@ -10,7 +10,9 @@ box-sizing: border-box,
 
   font-style: normal;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #F5F8FF;
 }
@@ -27,6 +29,17 @@ color:white;
 font-size:16px ;
 border-radius: 10px;
 border: none;
+transition: all;
+    transition-delay: .25s;
+}
+.prymary-btn:hover{
+
+    color: green;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 15px;
+
+    
 }
 .header-logo h2{
     color: #4E47FF;
@@ -158,10 +171,14 @@ text-align: center;
     background-color: #FAFBFF;
     padding:24px 24px ;
 }
+.card:hover{
+    border: 2px solid gray;
+}
 .card .icon{
     width: 20px;
     height:20px;
 }
+
 .person-info{
     display: flex;
  gap: 10px;
@@ -236,7 +253,9 @@ form input{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+form input:focus{
+    background-color: skyblue;
+}
 form label{
     font-size: 18px;
     font-weight: bold;
@@ -264,7 +283,11 @@ textarea{
     margin-top: 10px;
     background-color: #4E47FF;
     color: white;
+    transition: .05s;
 
+}
+.input-button:hover{
+    background-color: aqua;
 }
 /* from section done */
 .footer-main{
@@ -295,7 +318,7 @@ footer{
     background-color: black;
 }
 .footer-navigator{
-    margin-top: 20px;
+    margin-top:20px;
 }
 .footer-navigator ul{
     list-style: none;
