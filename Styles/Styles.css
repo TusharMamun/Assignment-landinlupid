@@ -149,6 +149,10 @@ font-weight: 400;
   gap: 156px;
   margin-top: 40px;
 }
+.user-main h3:hover{
+
+    color: red;
+}
 .coutn-div{
     text-align: center;
 }
